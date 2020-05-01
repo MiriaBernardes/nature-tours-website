@@ -30,3 +30,28 @@ nav {
 .nav-brand {
   width: 2rem;
 }
+
+.menu-icons i {
+  font-size: 3.5rem;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.close i {
+  color: #eb648c;
+}
+
+.nav-list {
+  width: 25rem;
+  height: 100vh;
+  background-color: #d7d4ed;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1500;
+  transition: all 650ms ease-in-out;
+}
