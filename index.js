@@ -5,6 +5,5 @@ getElementBySelector('.open').addEventListener('click', () => {
 })
 
 getElementBySelector('.close').addEventListener('click', () => {
-  console.log('hey')
   getElementBySelector('.nav-list').classList.remove('active');
 })
